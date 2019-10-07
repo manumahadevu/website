@@ -1590,76 +1590,6 @@ iPhone and mobile widths -------------------------------------------------------
 	top:0px;
 	margin:0;
 }
-/***************table********************************/
-table {
-    font-family: 'Lato', sans-serif !important;
-    border-collapse: collapse !important;
-	font-size:13px!important; 
-}
- th {
-    border: 1px solid #9BBB59 !important; 
-    text-align: left !important; 
-    padding: 8px !important; 
-	background-color: #9BBB59 !important; 
-	color:#FFF;
-	}
-td {
-    border: 1px solid #e3e3e3 !important; 
-    text-align: left !important; 
-    padding: 8px !important; 
-	background:none !important;
-	}
-tr:nth-child(odd) {
-    background-color:#FFF  !important;
-}
-tr:nth-child(even) {
-    background-color:#F9F9F9  !important;
-}
-@media screen and (max-width: 800px) {
-  table {
-    border: 0;
-  }
-  table caption {
-    font-size: 1.3em;
-  }
-  table thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    /*position: absolute;*/
-    width: 1px;
-  }
-  table tr {
-    display: block;
-    margin-bottom: .625em;
-	padding:6px 0;
-  }
-  table td {
-    display: block;
-    font-size: 12px;
-	text-align:left;
-	height:auto !important;
-	background-color:#fff;
-  }
-  table th {
-    display: block;
-    font-size: 12px;
-	text-align:left;
-  }
-  table td:before {
-    content: attr(data-label);
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  table td:last-child {
-    border-bottom: 0;
-  }
-}
-/***************table********************************/
 .footer{
 	padding: 3em 0 1.5em 0;
 }
@@ -1713,29 +1643,6 @@ tr:nth-child(even) {
     margin: 0 0 10px;
     border-bottom: 2px solid #fc5143;
 }
-
-/*.bgLeft{
-	background-color: #fc6c43;
-	position: absolute;
-	left: 0px;
-	top: 20px;
-	width: 50%;
-	height: 100%;
-	-ms-transform: skew( 0deg, 4deg);
-	-webkit-transform: skew( 0deg, 4deg);
-	transform: skew(0deg, 4deg);
-}
-.bgRight{
-	background-color: #fc6c43;
-	position: absolute;
-	right: 1px;
-	top: 20px;
-	width: 50%;
-	height: 100%;
-	-ms-transform: skew( 0deg, -4deg);
-	-webkit-transform: skew( 0deg, -4deg);
-	transform: skew(0deg, -4deg);
-}*/
 .fp {
     z-index: 1;
     position: relative;
@@ -1835,10 +1742,6 @@ tr:nth-child(even) {
 .social a img{
     width:22px;
 }
-
-
-
-
 .scrollup{
 	width:40px;
 	height:40px;			
@@ -1850,21 +1753,14 @@ tr:nth-child(even) {
 	background: url('../images/icon_top.png') no-repeat;
 	z-index:100;
 }
-
-
-
 @media only screen and (min-width:800px) and (max-width: 1100px) {
 		.departmentSlied {
 			margin-top: 95px;
 		}
 		.gallery-page li a {
 			height: 230px;
-		}
-
-
-}
-
-
+        }
+    }
 @media only screen and (min-width:480px) and (max-width: 800px) {
 		header{
 			position:inherit !important;
@@ -2042,4 +1938,9 @@ tr:nth-child(even) {
 }
 .shadow_h{
     text-shadow: none;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 2px solid #f2f2f2 !important;
 }
