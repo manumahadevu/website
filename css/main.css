@@ -1944,3 +1944,6 @@ hr {
     margin-bottom: 30px;
     border-top: 2px solid #f2f2f2 !important;
 }
+.displaynone{
+    display: none;
+}
